@@ -1,0 +1,73 @@
+body {
+padding: 0px;
+margin:0px;
+background-position:center ;
+background: url(../images/car.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment: fixed;
+
+
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+#form-container{
+width: 280px;
+position: absolute;
+
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+color: rgb(22, 208, 218);
+background-blend-mode: difference;
+  border-right: 1px solid rgb(206, 44, 144);
+  border-bottom: 1px solid rgb(114, 180, 188);
+  opacity: 85%;
+  background-color: rgba(67, 67, 83, 0.31);
+}
+#fname{
+  float: right;
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-radius:12px;
+  
+}
+
+#lname{
+  float: right;
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-radius:12px;
+}
+#email{
+  float: right;
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-radius:12px;
+}
+#mobile_number{
+  float: right;
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-radius:12px;
+}
+#btn{
+  outline: none;
+  width: 140px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  float: none;
+  border-radius: 10px;
+  background-color:azure;
+}
+
+
+
+
+
